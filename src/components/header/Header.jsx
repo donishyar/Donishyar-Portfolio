@@ -45,7 +45,13 @@ export const Header = () => {
                         </a>
                     </li>
                 </ul>
+
+                <i class="uil uil-times nav__close"></i>
             </div>
+
+        <div className="nav__toggle">
+            <i class="uil uil-apps"></i>
+        </div>    
         </nav>
     </header>
   )
